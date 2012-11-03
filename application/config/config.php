@@ -4,7 +4,7 @@ $default_controller = 'login';
 
 // db connection settings
 define('DB_HOST', 'localhost');
-define('DB_USER', 'nowbg_nowbg');
-define('DB_PASS', 'todinov89');
-define('DB_NAME', 'billsbooks');
+define('DB_USER', 'user');
+define('DB_PASS', 'pass');
+define('DB_NAME', 'phptinymvc');
 define('PDO_ERRMODE', PDO::ERRMODE_EXCEPTION);
