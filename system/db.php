@@ -9,7 +9,7 @@ class Database {
 	{
 		try
 		{
-			$this->PDOInstance = new PDO('mysql:host='.DB_HOST.';dbname='.DB_NAME, DB_USER, DB_PASS);
+			$this->PDOInstance = new PDO('mysql:host='.DB_HOST.';dbname='.DB_NAME.';charset=utf8', DB_USER, DB_PASS);
 			$this->PDOInstance->setAttribute(PDO::ATTR_ERRMODE, PDO_ERRMODE);
 		}
 		catch(PDOException $e)
