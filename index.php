@@ -1,11 +1,14 @@
 <?php
 session_start();
 
-define('DEVEL', false);
-define('BASEPATH', '/billsbooks/');
+define('DEVEL', true);
+define('BASEPATH', '/phptinymvc/');
+
+// default settings
 define('APPPATH', 'application/');
 define('SYSPATH', 'system/');
 define('ERRPATH', 'errors/');
+define('CACHEPATH', 'cache/');
 
 // display errors in development
 if (DEVEL)
